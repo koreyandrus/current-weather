@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVn8HTRZgYHapPE-AmFmwMISmSLIFrhys&libraries=places">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPViv9i3GQJqj_gKosLyAxbZrxPl1gzcs&libraries=places">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js" integrity="sha512-ChQiOC9OBUvQ75KLv3+YRxCQLV1bSWnGfcSdaP1v3iu6XSkmge+eXCu3lcV+O+Uvdjb+LGMZd/KAvV4rkEfbzw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script defer src="script.js"></script>
@@ -29,7 +29,7 @@
                     <div class="title">Wind</div>
                     <div class="value" data-wind>TBD</div>
                 </div>
-                <div class="detail">
+                <div class="detail bordered">
                     <div class="title">Temperature</div>
                     <div class="value" data-temperature>TBD</div>
                 </div>
@@ -40,9 +40,10 @@
             </div>
             <div class="city-search-container">
                 <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+                <p><a href="#" class="current-location">Use current location</a></p>
             </div>
         </div>
     </div>
-    <p>Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+    <p class="weather-logo">Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
 </body>
 </html>
